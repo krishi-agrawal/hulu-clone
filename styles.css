@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    margin: 0%;
+    /* overflow-y: auto; */
+}
+
+.hulu-div {
+    width: 20%;
+}
+
+.container {
+    margin: 0%;
+    width: 100%;
+    height:95%;
+    background-image: url("./images/wallpaperflare.com_wallpaper.jpg");
+    /* background: linear-gradient(to left, transparent, rgb(44, 42, 42)),
+          url("./images/wallpaperflare.com_wallpaper.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+
+}
+
+.nav-bar {
+    height: 60px;
+    display: flex;
+    padding-right: 3%;
+    padding-left: 3%;
+}
+
+.nav-contents {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    gap: 20px;
+}
+
+.hulu-logo {
+    height: 50px;
+    width: 80px;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+}
+
+.choice {
+    padding: 10px;
+
+}
+
+.icons-bar {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon {
+    height: 30px;
+}
+
+.user {
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    padding: 10px;
+    font-size: small;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 48.177px;
+    margin-top: 50px;
+}
+
+.now-streaming {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    word-spacing: 10px;
+}
+
+.stranger-things {
+    width: 200px;
+    height: 80px;
+}
+
+.season-header {
+    display: flex;
+    align-items: center;
+}
+
+.season {
+    display: inline;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.new {
+    background-color: white;
+    border-radius: 20%;
+    padding: 5px;
+    font-size: x-small;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    margin-left: 10px;
+
+}
+
+.description {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3;
+}
+
+.buttons {
+    margin-top: 15px;
+    height: 44px;
+    align-items: center;
+}
+
+
+.b {
+    height: 44px;
+    align-items: center;
+    border-radius: .25rem;
+    border: none;
+    box-sizing: border-box;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.b1 {
+    background-color: white;
+    color: black;
+    margin-right: 5px;
+    width: 100px;
+}
+.b1>span{
+    margin-left: 5px;
+}
+
+.b2 {
+    background-color: black;
+    border: solid white;
+    color: white;
+    width: 110px;
+}
+.buttons img{
+    max-width: 100%;
+    vertical-align: middle;
+    margin-left: 10px;
+    
+}
+.keep-watching{
+    background-color: rgb(42, 41, 41);
+    margin-top: 70px;
+    width: 100%;
+    height: 350px;
+}
+.watching-title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-left: 30px;
+    padding-top: 20px;
+
+}
+.watching{
+    width: 100%;
+    display:flex;
+    gap: 10px;
+    /* height: 190px; */
+}
+.watching-card{
+    
+    height: 165px;  
+}
+.show{
+    
+   
+    height: 165px;
+    border-radius: 3%;
+}
+.show1{
+    margin-left: 30px;
+    
+}
+.status-name{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(126, 125, 125);
+    margin: 0px;
+}
+.series-name{
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin: 0px;
+
+}
+.episode-name{
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+.first-info{
+    margin-left: 30px;
+}
